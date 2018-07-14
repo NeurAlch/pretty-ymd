@@ -1,0 +1,54 @@
+{
+  "name": "pretty-ymd",
+  "version": "0.10.1",
+  "description": "Get YMD and HMS from your Date objects or the current Date",
+  "license": "MIT",
+  "repository": "https://github.com/pablorosales/pretty-ymd",
+  "author": {
+    "name": "Pablo Rosales",
+    "email": "me@pablorosales.xyz",
+    "url": "https://pablorosales.xyz"
+  },
+  "main": "./lib/index.js",
+  "typings": "./lib/index.d.js",
+  "engines": {
+    "node": ">=6"
+  },
+  "scripts": {
+    "setup": "npm install",
+    "test": "mocha --require ts-node/register -r tsconfig.test.json ./tests/index.test.ts",
+    "build": "tsc"
+  },
+  "files": [
+    "lib/index.js",
+    "lib/index.d.ts"
+  ],
+  "keywords": [
+    "yyyy-mm-dd",
+    "ymd",
+    "month",
+    "day",
+    "date",
+    "time",
+    "format"
+  ],
+  "bugs": {
+    "url": "https://github.com/PabloRosales/pretty-ymd/issues"
+  },
+  "homepage": "https://github.com/PabloRosales/pretty-ymd#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/chai": "^4.1.4",
+    "@types/mocha": "^5.2.4",
+    "@types/node": "^10.5.2",
+    "@types/sinon": "^5.0.1",
+    "@types/sinon-chai": "^3.2.0",
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "sinon": "^6.1.3",
+    "sinon-chai": "^3.2.0",
+    "ts-node": "^7.0.0",
+    "tslint": "^5.10.0",
+    "typescript": "^2.9.2"
+  }
+}
