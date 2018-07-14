@@ -113,6 +113,7 @@ describe("With date parameter", () => {
 
 describe("For current date", () => {
 
+    // @ts-ignore
     let clock;
 
     before(() => {
@@ -122,6 +123,7 @@ describe("For current date", () => {
     });
 
     after(() => {
+        // @ts-ignore
         clock.restore();
     });
 
@@ -161,6 +163,7 @@ describe("For current date", () => {
 
 describe("For current date with zeroes", () => {
 
+    // @ts-ignore
     let clock;
 
     before(() => {
@@ -170,6 +173,7 @@ describe("For current date with zeroes", () => {
     });
 
     after(() => {
+        // @ts-ignore
         clock.restore();
     });
 
@@ -209,6 +213,7 @@ describe("For current date with zeroes", () => {
 
 describe("For current date with zeroes", () => {
 
+    // @ts-ignore
     let clock;
 
     before(() => {
@@ -218,6 +223,7 @@ describe("For current date with zeroes", () => {
     });
 
     after(() => {
+        // @ts-ignore
         clock.restore();
     });
 
