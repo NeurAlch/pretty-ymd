@@ -38,7 +38,9 @@ ymd.getCurrentMinutes();
 
 ### `getDate`
 
-Returns a string with the format `yyyy-mm-dd` for the date argument passed. Month and Day will always have two characters starting with `01`
+Returns a string with the format `yyyy-mm-dd` for the date argument passed.
+
+Month and Day will always have two characters starting with `01`
 
 ```js
 const date = new Date();
@@ -57,7 +59,9 @@ ymd.getCurrentDate()
 
 ### `getDatetime`
 
-Returns a string with the format `yyyy-mm-dd HH:MM:ss` for the date argument passed. Month, Day, Hour, Minute and Second will always have two characters starting with `01`
+Returns a string with the format `yyyy-mm-dd HH:MM:ss` for the date argument passed.
+
+Month, Day, Hour, Minute and Second will always have two characters starting with `01`
 
 ```js
 const date = new Date();
@@ -76,7 +80,9 @@ ymd.getCurrentDatetime()
 
 ### `getTime`
 
-Returns a string with the format `HH:MM:ss` for the date argument passed. Hours, Minutes and seconds will always have two characters starting with `01`
+Returns a string with the format `HH:MM:ss` for the date argument passed.
+
+Hours, Minutes and seconds will always have two characters starting with `01`
 
 ```js
 const date = new Date();
@@ -114,7 +120,9 @@ ymd.getCurrentYear()
 
 ### `getMonth`
 
-Returns the month of the date argument passed. Will always return 2 characters, starting with `01`
+Returns the month of the date argument passed.
+
+Will always return 2 characters, starting with `01`
 
 ```js
 const now = new Date();
@@ -133,7 +141,9 @@ ymd.getCurrentMonth()
 
 ### `getDay`
 
-Returns the day of the date argument passed. Will always return 2 characters, starting with `01`
+Returns the day of the date argument passed.
+
+Will always return 2 characters, starting with `01`
 
 ```js
 const now = new Date();
@@ -152,7 +162,9 @@ ymd.getCurrentDay()
 
 ### `getHours`
 
-Returns the hours for the date argument passed. Will always return 2 characters, starting with `01`
+Returns the hours for the date argument passed.
+
+Will always return 2 characters, starting with `01`
 
 ```js
 const now = new Date();
@@ -171,7 +183,9 @@ ymd.getCurrentHours()
 
 ### `getMinutes`
 
-Returns the minutes for the date argument passed. Will always return 2 characters, starting with `01`
+Returns the minutes for the date argument passed.
+
+Will always return 2 characters, starting with `01`
 
 ```js
 const now = new Date();
@@ -190,7 +204,9 @@ ymd.getCurrentMinutes()
 
 ### `getSeconds`
 
-Returns the seconds for the date argument passed. Will always return 2 characters, starting with `01`
+Returns the seconds for the date argument passed.
+
+Will always return 2 characters, starting with `01`
 
 ```js
 const now = new Date();
