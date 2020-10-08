@@ -10,9 +10,6 @@ used in things like databases and logging.
 ```
 $ npm install pretty-ymd
 ```
-<a href="https://www.patreon.com/pablorosales">
-	<img src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" width="160">
-</a>
 
 ## Usage
 
